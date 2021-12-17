@@ -16,7 +16,7 @@ Then, use another terminal to run command at folder that has ``app.py``:
 ```
 python app.py
 ```
-If you do not have a remote server, then just run ``app.py`` and access through localhost ``127.0.0.1:5000``.
+If you do not have a remote server, then just run ``app.py`` in your local terminal and access through localhost url ``127.0.0.1:5000``.
 
 ## Running example of the stimulus
 The whole process of the experiment (korean). The participants experienced a recommendation system which is divided by the type of recommender (machine vs human). Below is the process of human recommendation system.  
