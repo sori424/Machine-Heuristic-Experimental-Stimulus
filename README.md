@@ -8,14 +8,15 @@ This is a repository for experimental stimulus to explore machine heuristic in u
 * [ngrok](https://ngrok.com/)
 
 ## How to run
-If you have a remote server to run, run command at terminal as below:
-```
-ngrok http 5000
-```
-Then, use another terminal to run command at folder that has ``app.py``:
+Run command at folder that has ``app.py``:
 ```
 python app.py
 ```
+Then, if you want to run the file at a remote server, run command in terminal as below and access through the url it provides:
+```
+ngrok http 5000
+```
+
 If you do not have a remote server, then just run ``app.py`` in your local terminal and access through localhost url ``127.0.0.1:5000``.
 
 ## Running example of the stimulus
