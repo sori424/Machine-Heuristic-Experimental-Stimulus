@@ -19,4 +19,4 @@ python app.py
 If you do not have a remote server, then just run ``app.py`` and access through localhost ``127.0.0.1:5000``.
 
 ## Running example of the stimulus
-<img src="https://user-images.githubusercontent.com/47997074/146496280-8ee0f021-97d5-4d2a-8e3d-41669151273b.png" width="500px" height="300px"/>
+<img src="https://user-images.githubusercontent.com/47997074/146498094-4226d626-903e-4af5-9f99-964eb0daddf9.jpg" width="900px" height="500px"/>
