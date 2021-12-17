@@ -1,0 +1,300 @@
+<html lang="ko"><head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Jekyll v4.0.1">
+  <!-- <script type="text/javascript" src="https://static.nid.naver.com/js/naveridlogin_js_sdk_2.0.0.js" charset="utf-8"></script> -->
+  <title>영상전문추천시스템</title>
+  <link rel = "icon" href = "../static/imgs/caret-right-square-fill.svg" type = "image/x-icon"> 
+  <link rel="canonical" href="https://getbootstrap.kr/docs/4.5/examples/checkout/">
+
+
+  <!-- Bootstrap core CSS -->
+<link href="../static/css/bootstrap.css" rel="stylesheet">
+
+  <!-- Favicons
+<link rel="apple-touch-icon" href="/docs/4.5/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+<link rel="icon" href="/docs/4.5/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="/docs/4.5/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+<link rel="manifest" href="/docs/4.5/assets/img/favicons/manifest.json">
+<link rel="mask-icon" href="/docs/4.5/assets/img/favicons/safari-pinned-tab.svg" color="#563d7c">
+<link rel="icon" href="/docs/4.5/assets/img/favicons/favicon.ico">
+<meta name="msapplication-config" content="/docs/4.5/assets/img/favicons/browserconfig.xml">
+<meta name="theme-color" content="#563d7c">
+
+  -->
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+  </style>
+  <!-- Custom styles for this template -->
+  <link href="../static/css/form-validation.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+  <div class="container">
+<div class="py-5 text-center">
+  <img class="d-block mx-auto mb-4" src="../static/imgs/caret-right-square-fill.svg" alt="" width="72" height="72">
+  <h2>당신을 알려주세요!</h2>
+  <p class="lead">간단한 정보 입력만으로도 저희 영상 전문 추천 알고리즘은 당신에게 흥미로운 영상을 추천해드립니다.</p>
+</div>
+
+<div class="row">
+  
+  <div class="col-md-8 order-md-1">
+    <form class="needs-validation" novalidate="" action="./login.html" method="GET">
+
+      <div class="row">
+        <div class="col-md-5 mb-3"> 
+          <label for="country">국적</label>
+          <select class="custom-select d-block w-100" id="country" required>
+            <option value="">선택...</option>
+            <option>가나</option>
+            <option>가봉</option>
+            <option>가이아나</option>
+            <option>감비아</option>
+            <option>과테말라</option>
+            <option>그라나다</option>
+            <option>그리스</option>
+            <option>기니</option>
+            <option>나미비아</option>
+            <option>나우루</option>
+            <option>나이지리아</option>
+            <option>남수단</option>
+            <option>남아프리카 공화국</option>
+            <option>네덜란드</option>
+            <option>네팔</option>
+            <option>노르웨이</option>
+            <option>뉴질랜드</option>
+            <option>니제르</option>
+            <option>니카라과</option>
+            <option>대한민국</option>
+            <option>덴마크</option>
+            <option>도미니카 공화국</option>
+            <option>도미니카 연방</option>
+            <option>독일</option>
+            <option>동티모르</option>
+            <option>라오스</option>
+            <option>라이베리아</option>
+            <option>라트비아</option>
+            <option>러시아</option>
+            <option>레바논</option>
+            <option>룩셈부르크</option>
+            <option>루마니아</option>
+            <option>리비아</option>
+            <option>마다가스카르</option>
+            <option>말라위</option>
+            <option>멕시코</option>
+            <option>모나코</option>
+            <option>몰디브</option>
+            <option>몽골</option>
+            <option>미국</option>
+            <option>미얀마</option>
+            <option>바누아투</option>
+            <option>보츠와나</option>
+            <option>볼리비아</option>
+            <option>불가리아</option>
+            <option>브라질</option>
+            <option>사모아</option>
+            <option>사우디아라비아</option>
+            <option>세네갈</option>
+            <option>세르비아</option>
+            <option>소말리아</option>
+            <option>수단</option>
+            <option>스리랑카</option>
+            <option>스웨덴</option>
+            <option>스위스</option>
+            <option>스페인</option>
+            <option>슬로베니아</option>
+            <option>시리아</option>
+            <option>싱가포르</option>
+            <option>아랍에미리트</option>
+            <option>아르헨티나</option>
+            <option>아이티</option>
+            <option>아일랜드</option>
+            <option>아프가니스탄</option>
+            <option>알제리</option>
+            <option>앙골라</option>
+            <option>에콰도르</option>
+            <option>엘살바도르</option>
+            <option>영국</option>
+            <option>예멘</option>
+            <option>오만</option>
+            <option>오스트레일리아</option>
+            <option>오스트리아</option>
+            <option>이란</option>
+            <option>일본</option>
+            <option>자메이카</option>
+            <option>조지아</option>
+            <option>중국</option>
+            <option>짐바브웨</option>
+            <option>체코</option>
+            <option>칠레</option>
+            <option>카자흐스탄</option>
+            <option>캄보디아</option>
+            <option>케냐</option>
+            <option>콩고민주공화국</option>
+            <option>쿠웨이트</option>
+            <option>태국</option>
+            <option>터키</option>
+            <option>튀니지</option>
+            <option>파키스탄</option>
+            <option>페루</option>
+            <option>프랑스</option>
+            <option>필리핀</option>
+            <option>헝가리</option>
+            <option>기타..</option>
+
+
+
+
+
+          </select>
+          <div class="invalid-feedback">
+            Please select a valid country.
+          </div>
+        </div>
+
+        <div class="col-md-5 mb-3">
+          <label for="age">나이</label>
+          <select class="custom-select d-block w-100" id="country" required>
+            <option value="">선택...</option>
+            <option>10대</option>
+            <option>20대</option>
+            <option>30대</option>
+            <option>40대</option>
+            <option>50대</option>
+            <option>기타..</option> 
+          </select>
+          <div class="invalid-feedback">
+            Please select a valid age.
+          </div>
+        </div>
+
+        <div class="col-md-5 mb-3">
+          <label for="sex">성별</label>
+          <select class="custom-select d-block w-100" id="sex" required>
+            <option value="">선택...</option>
+            <option>여</option>
+            <option>남</option>
+            <option>기타..</option>
+          </select>
+          <div class="invalid-feedback">
+            Please select a valid sex.
+          </div>
+        </div>
+      </div>
+
+      <hr class="mb-4">
+      <h4 class="mb-3" style="font-weight:normal">Interests</h4>
+      <div class="custom-control custom-checkbox">
+        <input type="checkbox" class="custom-control-input" id="tv">
+        <label class="custom-control-label" for="tv">TV/방송</label>
+      </div>
+      <div class="custom-control custom-checkbox">
+        <input type="checkbox" class="custom-control-input" id="kids">
+        <label class="custom-control-label" for="kids">키즈/애니/토이</label>
+      </div>
+      <div class="custom-control custom-checkbox">
+        <input type="checkbox" class="custom-control-input" id="asmr">
+        <label class="custom-control-label" for="asmr">먹방/ASMR</label>
+      </div>
+      <div class="custom-control custom-checkbox">
+        <input type="checkbox" class="custom-control-input" id="enter" >
+        <label class="custom-control-label" for="enter">예능</label>
+      </div>
+      <div class="custom-control custom-checkbox">
+        <input type="checkbox" class="custom-control-input" id="film" >
+        <label class="custom-control-label" for="film">영화</label>
+      </div>
+      <div class="custom-control custom-checkbox">
+        <input type="checkbox" class="custom-control-input" id="music" >
+        <label class="custom-control-label" for="music">음악/댄스</label>
+      </div>
+      <div class="custom-control custom-checkbox">
+        <input type="checkbox" class="custom-control-input" id="edu">
+        <label class="custom-control-label" for="edu">교양/정보/다큐</label>
+      </div>
+      <div class="custom-control custom-checkbox">
+        <input type="checkbox" class="custom-control-input" id="news">
+        <label class="custom-control-label" for="news">정치/사회/경제</label>
+      </div>
+      <div class="custom-control custom-checkbox">
+        <input type="checkbox" class="custom-control-input" id="cook" >
+        <label class="custom-control-label" for="cook">요리/음식</label>
+      </div>
+      <div class="custom-control custom-checkbox">
+        <input type="checkbox" class="custom-control-input" id="travel" >
+        <label class="custom-control-label" for="travel">여행/관광</label>
+      </div>
+      <div class="custom-control custom-checkbox">
+        <input type="checkbox" class="custom-control-input" id="sports">
+        <label class="custom-control-label" for="sports">스포츠/헬스/피트니스</label>
+      </div>
+      <div class="custom-control custom-checkbox">
+        <input type="checkbox" class="custom-control-input" id="beauty" >
+        <label class="custom-control-label" for="beauty">패션/뷰티/스타일</label>
+      </div>
+      <div class="custom-control custom-checkbox">
+        <input type="checkbox" class="custom-control-input" id="tech" >
+        <label class="custom-control-label" for="tech">기술/IT</label>
+      </div>
+      <div class="custom-control custom-checkbox">
+        <input type="checkbox" class="custom-control-input" id="bj" >
+        <label class="custom-control-label" for="bj">BJ/크리에이터</label>
+      </div>
+      <div class="custom-control custom-checkbox">
+        <input type="checkbox" class="custom-control-input" id="games" >
+        <label class="custom-control-label" for="games">게임</label>
+      </div>
+      <div class="custom-control custom-checkbox">
+        <input type="checkbox" class="custom-control-input" id="scifi/fanta" >
+        <label class="custom-control-label" for="scifi/fanta">공상과학/판타지</label>
+      </div>
+      <div class="custom-control custom-checkbox">
+        <input type="checkbox" class="custom-control-input" id="vlog" >
+        <label class="custom-control-label" for="vlog">Vlog</label>
+      </div>
+      <div class="custom-control custom-checkbox">
+        <input type="checkbox" class="custom-control-input" id="animal" >
+        <label class="custom-control-label" for="animal">동물/식물</label>
+      </div>  
+      <div class="custom-control custom-checkbox">
+        <input type="checkbox" class="custom-control-input" id="etc">
+        <label class="custom-control-label" for="etc">기타..</label>
+      </div>
+      <hr class="mb-4">
+      <div id="naverIdLogin">
+        <button class="btn btn-success btn-lg btn-block" type="submit">네이버 아이디 입력하기</button>
+      </div>   
+    </form>
+  </div>
+</div>
+
+<footer class="my-5 pt-5 text-muted text-center text-small">
+  <p class="mb-1">© SKKU AAI</p>
+  <ul class="list-inline">
+    <li class="list-inline-item"><a href="#">Privacy</a></li>
+    <li class="list-inline-item"><a href="#">Terms</a></li>
+    <li class="list-inline-item"><a href="#">Support</a></li>
+  </ul>
+</footer>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="/docs/4.5/assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="/js/bootstrap.bundle.js"></script>
+      <script src="../static/js/form-validation.js"></script>
+
+</body></html>

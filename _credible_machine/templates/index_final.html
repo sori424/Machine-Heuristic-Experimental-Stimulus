@@ -1,0 +1,193 @@
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+  
+    <title>영상전문추천시스템</title>
+    <link rel = "icon" href = "../static/imgs/caret-right-square-fill.svg" type = "image/x-icon"> 
+    <!-- Bootstrap core CSS -->
+    <link href="../static/css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/product/"> -->
+  
+    <script src="../static/js/ie-emulation-modes-warning.js"></script>
+    <link href="../static/css/carousel.css" rel="stylesheet">
+  
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+  
+      .ml3 {
+        font-weight: 800;
+        font-size: 3em;
+        text-anchor:middle;
+        color:#f56363;
+      }
+  
+      .hide{
+        display: none;
+      }
+  
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+  
+    </style>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+  
+  </head>
+  <!-- NAVBAR
+  ================================================== -->
+  <body>
+    <!-- Carousel
+    ================================================== -->
+    <div class="position-relative overflow-hidden p-3 p-md-5 text-center">
+      <div class="col-md-5 p-lg-5 mx-auto my-5">
+        <p class="ml3" style="font-family: 'Times New Roman', Times, serif; margin-top: 0%;">
+          Recommended by Algorithm
+          </p>
+          <h3 class="lead" style="font-weight: 300;">
+            <strong>인공지능기반 영상 전문 추천 시스템 
+            <br>
+            혁신적인 기술의 영상 추천 알고리즘을
+            <br>
+            지금, 경험해보세요!   
+          </strong>
+            </h3>
+            <img src="../static/imgs/down-arrow.gif" style="width:3em; height:3em">
+        <p>SCROLL DOWN</p>
+      </div>
+    </div>
+    <!-- /.carousel -->
+  
+  
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+  
+    <div class="container marketing">
+  
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="container" style="text-align:center">
+          <dl>
+          <h3 style="font-family: 'Times New Roman', Times, serif; font-weight: 600;">HOW IT WORKS</h3>
+      </dl>
+      </div>
+        <div class="col-lg-4">
+          <img class="img-circle" src="../static/imgs/list.gif" alt="Generic placeholder image" width="140" height="140">
+          <h2>Survey</h2>
+          <p>간단한 설문조사를 시작합니다. 
+            <br>
+            이때 저희는 당신의 기본 정보, 취향을 파악합니다.
+          </p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="../static/imgs/business-network.gif" alt="Generic placeholder image" width="140" height="140">
+          <h2>Information Tracking</h2>
+          <p>영상을 더 잘 추천해주기 위해 소셜 미디어 활동 로그를 분석합니다.
+            <br>
+            정보는 철저한 보안이 보장됩니다.
+          </p>
+         
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="../static/imgs/critical-thinking.gif" alt="Generic placeholder image" width="140" height="140">
+          <h2>AI</h2>
+          <p>
+            당신의 취향, 최신트랜드를 
+            <br>
+            AI를 통해 파악하여 당신의 취향에 가장 잘 맞는 영상을 추천해주게 됩니다.</p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+    
+  
+      <!-- START THE FEATURETTES -->
+  
+      <hr class="featurette-divider">
+  
+      <div class="row featurette">
+        <div class="container" style="text-align:center">
+          <dl>
+          <h3 style="font-family: 'Times New Roman', Times, serif; font-weight: 600;">READY TO START ?</h3>
+      </dl>
+      </div>
+        <div class="col-md-7">
+          <h2 class="featurette-heading">It'll blow your mind.</h2>
+          <p class="lead">
+            빅데이터와 인공지능을 이용해 당신의 성향을 분석하고 이를 토대로 나온데이터를 바탕으로
+            최종적으로 당신에게 딱 맞는 14가지 영상을 제공해 드립니다.
+            이 모든 과정을 거치기 까지 당신이 할 일은 설문조사 한가지 입니다.
+            <br>
+            이 특별한 서비스를 지금 경험해보세요.
+          </p>
+          <p class="button" id="button">
+            <a href="./survey.html" class="btn btn-lg btn-secondary" style="background: red; border: 0;">시작해보기 !</a> 
+          </p>
+        </div>
+        <div class="col-md-5">
+          <img class="img-fluid" src="../static/imgs/algo_img.jpg" data-holder-rendered="true">
+        </div>
+      </div>
+  
+      <!-- /END THE FEATURETTES -->
+  
+  
+      <!-- FOOTER -->
+      <footer>
+        <p>© 2020 SKKU AAI · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+      </footer>
+  
+    </div><!-- /.container -->
+  
+    <script>
+      // Wrap every letter in a span
+    var textWrapper = document.querySelector('.ml3');
+    textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+  
+  anime.timeline({loop: false})
+  .add({
+    targets: '.ml3 .letter',
+    opacity: [0,1],
+    easing: "easeInOutQuad",
+    duration: 3000,
+    delay: (el, i) => 150 * (i+1)
+  }).add({
+    targets: '.ml3',
+    opacity: 0,
+    duration: 1000,
+    easing: "easeOutExpo",
+    delay: 1000
+  });
+  
+  </script>
+  
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="../static/js/bootstrap.min.js"></script>
+    <script src="../static/js/popper.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="../static/js/holder.js"></script>
+    <script src="../static/js/holder.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../static/js/ie10-viewport-bug-workaround.js"></script>
+  
+  
+  
+  
+  <svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" preserveAspectRatio="none" style="visibility: hidden; position: absolute; top: -100%; left: -100%;"><defs></defs><text x="0" y="23" style="font-weight:bold;font-size:23pt;font-family:Arial, Helvetica, Open Sans, sans-serif;">500x500</text></svg><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" preserveAspectRatio="none" style="visibility: hidden; position: absolute; top: -100%; left: -100%;"><defs></defs><text x="0" y="23" style="font-weight:bold;font-size:23pt;font-family:Arial, Helvetica, Open Sans, sans-serif;">500x500</text></svg><svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" preserveAspectRatio="none" style="visibility: hidden; position: absolute; top: -100%; left: -100%;"><defs></defs><text x="0" y="23" style="font-weight:bold;font-size:23pt;font-family:Arial, Helvetica, Open Sans, sans-serif;">500x500</text></svg>
+  
+  </body></html>

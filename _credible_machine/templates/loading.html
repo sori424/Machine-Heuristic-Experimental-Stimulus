@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <title>영상전문추천시스템</title>
+    <link rel = "icon" href = "../static/imgs/caret-right-square-fill.svg" type = "image/x-icon"> 
+</head>
+<body>
+<div class="text-center" >
+    <!-- <div class="spinner-grow text-primary" style= " width:3rem; height: 3rem;" role="status">
+        <span class="sr-only">Loading...</span>
+    </div>
+    <div class="spinner-grow text-warning" style= " width:3rem; height: 3rem;" role="status">
+        <span class="sr-only">Loading...</span>
+    </div>
+      <div class="spinner-grow text-success" style= " width:3rem; height: 3rem;" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+      <div class="spinner-grow text-danger" style= " width:3rem; height: 3rem;" role="status">
+        <span class="sr-only">Loading...</span>
+      </div> -->
+      <img src="../static/imgs/loading.png" style="height:300px;">
+</div>
+<div class="text-center" style="margin-top:30px; font-size:1.4rem;">
+  <script>
+    function play() {
+      var audio = document.getElementById("audio");
+      audio.play();
+    }
+
+  </script>
+  <audio id="audio" src="../static/voice_algo.mp3"></audio>
+  <p style="font-size:1.3rem;">영상 전문 알고리즘이 학습 진행중입니다. 음성 메시지를 클릭해서 확인해주세요 >> <img src="../static/imgs/sound.gif" onclick="play()" style="width: 130px; height: 130px;"></p>
+    
+</div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="../static/js/loading.js"></script>
+</body>
+</html>

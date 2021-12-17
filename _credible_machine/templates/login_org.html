@@ -1,0 +1,73 @@
+<html lang="ko"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico"> -->
+
+    <title>영상전문추천시스템</title>
+  <link rel = "icon" href = "../static/imgs/caret-right-square-fill.svg" type = "image/x-icon"> 
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/sign-in/">
+
+    <!-- Bootstrap core CSS -->
+    <link href="../static/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+	<link href="../static/css/signin.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://nid.naver.com/login/css/global/desktop/w_20200707.css?20200728">
+  </head>
+
+  <body class="text-center">
+    <form class="form-signin">
+    <div>
+    <h1 class="h3 mb-3">
+		<a href="https://www.naver.com" class="sp h_logo" id="log.naver">
+			<img src="../static/imgs/naver.PNG" class="center" style="width:200px">
+			<span class="blind">NAVER</span>
+		</a>
+	</h1>
+</div> 
+
+<fieldset class="login_form" action="loading.html" method="GET">
+	<legend class="blind">로그인</legend>
+	<div class="id_area">
+		<div class="input_row" id="id_area">
+			<span class="input_box">
+				<input type="text" id="id" name="id" accesskey="L" placeholder="아이디" class="int" maxlength="41" value="">
+			</span>
+			<button type="button" disabled="" title="delete" id="id_clear" class="wrg">삭제</button>
+		</div>
+		<div class="error" id="err_empty_id" style="display:none" aria-live="assertive"></div>
+	</div>
+	<div class="pw_area">
+		<div class="input_row" id="pw_area">
+			<span class="input_box">
+				<input type="password" id="pw" name="pw" placeholder="비밀번호" class="int" maxlength="16">
+			</span>
+			<button type="button" disabled="" title="delete" id="pw_clear" class="wrg">삭제</button>
+			<div class="ly_v2" id="err_capslock" style="display:none;">
+				<div class="ly_box">
+					<p><strong>Caps Lock</strong>이 켜져 있습니다.</p>
+				</div>
+				<span class="sp ly_point"></span>
+			</div>
+		</div>
+		<div class="error" id="err_empty_pw" style="display:none" aria-live="assertive"></div>
+	</div>
+
+	<input type="button" title="로그인" alt="로그인" value="로그인" class="btn_global" id="log.login" onclick="location.href='./loading.html'">
+	<div class="check_info">
+		<div class="login_check">
+			<span class="login_check_box">
+				<input type="checkbox" id="login_chk" name="nvlong" class="" value="off">
+				<label for="login_chk" id="label_login_chk" class="ico_keep_check ">로그인 상태 유지</label>
+			</span>
+		</div>
+		
+	</div>
+</fieldset>
+	</form>
+	
+
+</body></html>
