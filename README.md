@@ -12,7 +12,7 @@ Run command at folder that has ``app.py``:
 ```
 python app.py
 ```
-Then, if you want to run the file at a remote server, run command in terminal as below and access through the url it provides:
+Then, if you want to run the experiment at a remote server which allows users to access the experiment anywhere, run command in terminal as below and access through the url it provides:
 ```
 ngrok http 5000
 ```
