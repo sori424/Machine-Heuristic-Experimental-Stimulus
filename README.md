@@ -1,5 +1,5 @@
 # Machine-Heuristic-Experimental-Stimulus
-This is a repository for experimental stimulus to explore machine heuristic in using recommendation systems. The "Are you aware of what you are watching? Role of machine heuristic in online content recommendations" paper has been accepted on the International Workshop on [Cyber Social Threats (CySoc)](https://cysoc2022.github.io/) at the International Conference on Web and Social Media (ICWSM).
+This is a repository for experimental stimulus for the accepted paper "Are you aware of what you are watching? Role of machine heuristic in online content recommendations" on the International Workshop on [Cyber Social Threats (CySoc)](https://cysoc2022.github.io/) at the International Conference on Web and Social Media (ICWSM).
 
 
 ## Setup
