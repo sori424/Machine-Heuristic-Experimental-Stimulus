@@ -26,4 +26,5 @@ ngrok http 5000
 The whole process of the experiment (korean). The participants experienced a recommendation system which is divided by the type of recommender (machine vs human). Below is the process of human recommendation system.  
 
 
-<img src="https://user-images.githubusercontent.com/47997074/146498094-4226d626-903e-4af5-9f99-964eb0daddf9.jpg" width="900px" height="500px"/>
+<img src="https://user-images.githubusercontent.com/47997074/165882131-f98e685b-3680-4250-b037-4fb12225ccf7.png" width="300px" height="500px"/>
+<img src="https://user-images.githubusercontent.com/47997074/165882217-e4e48e6f-1bdf-414a-9c83-f13f4b22df54.png" width="300px" height="500px"/>
