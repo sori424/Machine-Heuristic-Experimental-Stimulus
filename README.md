@@ -3,22 +3,24 @@ This is a repository for experimental stimulus for the paper "Are you aware of w
 
 
 ## Setup
-* ubuntu 18.04.5 LTS
 * python 3.7.6
 * flask 1.1.1
-* [ngrok](https://ngrok.com/)
 
 ## How to run
 Run command at folder that has ``app.py``:
 ```
 python app.py
 ```
-Then, if you want to run the experiment at a remote server which allows users to access the experiment anywhere, run command in terminal as below and access through the url it provides:
+You can access webpage through local machine.
+
+
+## Run with remote server
+If you want to run the experiment at a remote server which allows users to access the experiment anywhere, please download [ngrok](https://ngrok.com/) in your server and run command below in an another terminal which will give you the url.  
+
 ```
 ngrok http 5000
 ```
 
-If you do not have a remote server, then just run ``app.py`` in your local terminal and access through localhost url ``127.0.0.1:5000``.
 
 ## Running example of the stimulus
 The whole process of the experiment (korean). The participants experienced a recommendation system which is divided by the type of recommender (machine vs human). Below is the process of human recommendation system.  
