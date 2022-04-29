@@ -15,7 +15,7 @@ You can access webpage through local machine.
 
 
 ## Run with remote server
-If you want to run the experiment at a remote server which allows users to access the experiment anywhere, please download [ngrok](https://ngrok.com/) in your server and run command below in an another terminal which will give you the url.  
+If you want to run the experiment at a remote server which allows users to access the experiment anywhere, please download [ngrok](https://ngrok.com/) in your server and run command below in an another terminal which will give you the url to access from anywhere.  
 
 ```
 ngrok http 5000
